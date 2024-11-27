@@ -1,0 +1,114 @@
+/* Reset some default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+  color: #333;
+  padding: 20px;
+}
+
+.app {
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.title {
+  font-size: 2.5rem;
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.generate-btn {
+  display: block;
+  margin: 20px auto;
+  padding: 10px 20px;
+  font-size: 1rem;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.generate-btn:hover {
+  background-color: #0056b3;
+}
+
+.temperature-control {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.temperature-control h3 {
+  font-size: 1.5rem;
+  margin-right: 20px;
+}
+
+.temp-btn {
+  padding: 10px 20px;
+  font-size: 1rem;
+  margin: 0 10px;
+  background-color: #28a745;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.temp-btn:hover {
+  background-color: #218838;
+}
+
+h2 {
+  font-size: 1.8rem;
+  margin-top: 30px;
+  color: #555;
+}
+
+.sensor-data {
+  background-color: #e9ecef;
+  padding: 15px;
+  border-radius: 5px;
+  margin-bottom: 15px;
+}
+
+.sensor-data p {
+  margin: 10px 0;
+}
+
+.actions-list {
+  list-style-type: none;
+  margin-top: 20px;
+}
+
+.actions-list li {
+  background-color: #f8f9fa;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-bottom: 5px;
+}
+
+.all-data {
+  display: grid;
+  gap: 20px;
+}
+
+.all-data .sensor-data {
+  background-color: #f1f1f1;
+}
